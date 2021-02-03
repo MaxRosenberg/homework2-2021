@@ -45,8 +45,15 @@ div{
 #yellow{
     background-color: yellow;
     text-align: right;
+}
+
+#yellow h2{
     color: black;
-    text-shadow: 4px 4px 2px #c7e2c7;
+    text-shadow: 4px 4px 2px #c7e2c7
+}
+
+#yellow p{
+    color: black
 }
 
 #green{
