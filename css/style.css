@@ -1,5 +1,5 @@
 body{
-    font-style: 'Times New Roman', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background-color: #000000;
     color: #FFFFFF;
 }
@@ -29,7 +29,7 @@ img{
 
 div{
     padding: 25px;
-    height: 150px;
+    min-height: 150px;
 }
 
 #red{
@@ -46,6 +46,7 @@ div{
     background-color: yellow;
     text-align: right;
     color: black;
+    text-shadow: 4px 4px 2px #c7e2c7;
 }
 
 #green{
@@ -54,6 +55,8 @@ div{
 }
 
 footer>p{
+    padding-top: 0px;
+    padding-left: 0px;
     padding-bottom: 10px;
     padding-right: 10px;
     text-align: center;
